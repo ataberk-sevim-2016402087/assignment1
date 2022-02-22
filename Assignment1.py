@@ -2,6 +2,7 @@ from flask import Flask, request, Response, g
 import logging
 import sqlite3
 
+# select database
 DATABASE = './database.db'
 
 app = Flask(__name__)
