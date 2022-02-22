@@ -1,5 +1,4 @@
 from flask import Flask, request, Response, g
-import json
 import logging
 import sqlite3
 
